@@ -10,7 +10,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Hi!\nI'm the personal bot of Nate, a Customer Success Manager at Sysomos.')
+            return bot.say('Hi!\n I'm the personal bot of Nate, a Customer Success Manager at Sysomos.')
                 .then(() => 'askName');
         }
     },
